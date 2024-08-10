@@ -4,7 +4,6 @@ const dateField = document.getElementById('date-field');
 const todos = JSON.parse(localStorage.getItem('todos'));
 
 if (todos) {
-  
   todos.slice(1).forEach(todo => {
     add(todo);
   })
@@ -34,6 +33,7 @@ function add(todo) {
 
   content.innerText = text;
   date.innerText = dateText;
+  content.classList.add('content');
   tr.addEventListener('contextmenu', function(event) {
     event.preventDefault();
     tr.remove();
