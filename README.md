@@ -1,5 +1,9 @@
 # README
 
+## アプリ
+ToDoアプリ
+URL https://yuta-yamazaki1708.github.io/todo/
+
 ## 使い方
 テキストボックスにToDoを入力、日付を選択して「追加」クリックするとToDoリストを追加できます。
 右クリックするとToDoリストを削除できます。
